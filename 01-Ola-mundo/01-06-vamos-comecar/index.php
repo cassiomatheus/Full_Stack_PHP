@@ -2,8 +2,10 @@
 <html>
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>FSPHP: INICIANDO UM PROJETO</title>
-    <link rel="stylesheet" href="assets/style.css"/>
+
+    <link rel=  "stylesheet" href="assets/style.css"/>
 </head>
 <body>
     <?php
@@ -12,11 +14,11 @@
      * e comando de saida
      */
     $start = 'Vamos Começar!';
-    echo "Ola mundo! {$start}</h1>";
+    echo "<h1>Ola mundo! {$start}</h1>";
     echo "<p id= 'js'>Loading...</p>";
     ?>
-    <script> 
-    src="assets/scripts.js"
+    <script 
+    src="assets/scripts.js">
     </script>
 </body>
 </html>
